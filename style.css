@@ -1,0 +1,74 @@
+/* Set font family and size for all text */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style for page header */
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style for main content area */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Style for individual paragraphs */
+p {
+  margin: 10px 0;
+}
+
+/* Style for links */
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+/* Style for images */
+img {
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+/* Style for recommended clients section */
+.recommended-clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Style for individual client links */
+.recommended-clients a {
+  margin: 10px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Style for hover effect on client links */
+.recommended-clients a:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+/* Style for page footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
